@@ -1,0 +1,61 @@
+# Public seed files only for now.
+# Everything else stays local/ignored until it has been reviewed and promoted.
+*
+
+!.gitignore
+!README.md
+!LICENSE
+
+# Keep directories navigable locally without making their contents public yet.
+!asm_patch_formats/
+!config/
+!docs/
+!local_bins/
+!outputs/
+!patchlists/
+!reference/
+!tools/
+!work/
+
+# Local WIP and notes
+TODO.md
+work/**
+docs/**
+asm_patch_formats/**
+patchlists/**
+config/**
+tools/**
+reference/**
+outputs/**
+local_bins/**
+
+# ECU binaries and generated artifacts should never be accidentally published.
+*.bin
+*.BIN
+*.cal
+*.CAL
+*.xdf.bak
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+*.pyc
+__pycache__/
+
+# Ghidra/project output
+*.gpr
+*.rep
+*.lock
+*.gzf
+ghidra_projects/
+ghidra_output/
+analysis_output/
+disassembly_output/
+exports/
+
+# Local editor/system noise
+.vscode/
+*.code-workspace
+Thumbs.db
