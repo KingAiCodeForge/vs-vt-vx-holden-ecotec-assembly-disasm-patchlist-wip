@@ -15,12 +15,17 @@ Nothing in this repository is ready to flash.
 | 2 | VS L67 | `$51` Enhanced v1.0d | Supercharged comparison |
 | 3 | VT L36 | `$A5G` Enhanced v1.0i | Later-generation comparison |
 | 4 | VT L67 | `$A5G` Enhanced v1.3i | Supercharged comparison |
-| 5 | VX/VY L36 | `$060A` Enhanced v2.09b | Reference against existing VY research |
+| 5 | VX/VY L36 | `$060A` Enhanced v1.0a | Reference with the Antus v2.09b XDF against existing VY research |
 | 6 | VX/VY L67 | `$07` Enhanced v2.6i | Supercharged reference |
 
 Each calibration is a separate reverse-engineering target. Similar table names
 do not prove that code addresses, RAM locations, bank layouts, or patch hooks
 are portable between them.
+
+For the VX/VY L36 reference, `v1.0a` is the 131,072-byte executable calibration
+revision and `v2.09b` is the matching Antus XDF revision. The exact v1.0a source
+used by the existing VY work has SHA-256
+`5cb8bd1c61da37a3846b6c28600cdc21db3ceef0c764232d0cd7ec8d6e836abd`.
 
 ## Current State
 
