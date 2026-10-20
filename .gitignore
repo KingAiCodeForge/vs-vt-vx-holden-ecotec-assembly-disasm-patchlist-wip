@@ -3,8 +3,16 @@
 *
 
 !.gitignore
+!.gitattributes
 !README.md
 !LICENSE
+!CHANGELOG.md
+!pyproject.toml
+!MANIFEST.in
+!holden_wip/
+!tests/
+!.github/
+!.github/workflows/
 
 # Keep directories navigable locally without making their contents public yet.
 !asm_patch_formats/
@@ -28,6 +36,17 @@ tools/**
 reference/**
 outputs/**
 local_bins/**
+
+# Individually reviewed public documentation and metadata only.
+!docs/PUBLIC_SOURCE_REVIEW.md
+!docs/SOURCE_INTAKE.md
+!config/targets.json
+!holden_wip/__init__.py
+!holden_wip/binary_diff.py
+!tools/bin_diff_report.py
+!tests/test_binary_diff.py
+!docs/script-review-ledger.json
+!.github/workflows/python.yml
 
 # ECU binaries and generated artifacts should never be accidentally published.
 *.bin

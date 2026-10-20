@@ -1,0 +1,709 @@
+{
+  "scope": "75 ignored local source candidates plus three new public modules; per-file claims only",
+  "scripts": [
+    {
+      "path": "tools/address_alias_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/bank_composition_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/bin_diff_report.py",
+      "original_local_sha256": "f5ca7d4d02ef27da77bce828c55f7a01e0bf43407575d4965feeab342fd4ddbb",
+      "purpose": "generic metadata difference report",
+      "interface": "CLI original modified plus report/hash/limit/privacy options",
+      "review_status": "inspected; changed into thin installed-package adapter; synthetic tests",
+      "changed": true,
+      "runtime_tested": true,
+      "distributed": true
+    },
+    {
+      "path": "tools/catalog_local_variants.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/compare_calibration_pair.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/control_path_xdf_map.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/control_trace_queue.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/cross_osid_xdf_equivalence.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/download_pcmhacking_file.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/generate_disasm_xref_labels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/generate_dtc_block_labels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/generate_hc11_hw_labels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ApplyVectorLabels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/CreateFunctionsFromCandidates.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/CreateFunctionsFromManifest.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ExportDecompiledFunctions.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ExportDisassemblyRange.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ExportFullDisassembly.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ImportGeneratedLabels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/ReviewFunctionSplitManifest.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/apply_auto_labels_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/create_candidate_functions_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/create_manifest_functions_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/export_decompiled_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/export_full_disasm_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/review_cfbc_split_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/ghidra/run_headless_vs_vt_vx.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/hc11_decode.py",
+      "purpose": "instruction lengths and reference heuristics",
+      "interface": "API decode_one/decode_run/is_reachable_reference",
+      "review_status": "inspected; held; not executed; opcode and control-flow claims unqualified",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/hc11_vector_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/map_target_coverage.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/routine_catalog_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/scan_reusable_assets.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/semantic_code_use_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/stage_target_bin.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/summarize_full_disasm.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/test_cross_osid_xdf_equivalence.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/test_hc11_decode.py",
+      "purpose": "decoder regressions",
+      "interface": "unittest script",
+      "review_status": "inspected; held; not run; excluded firmware fixture required",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/test_map_target_coverage.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/test_trace_vs_late_spark_and_module_hooks.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/test_trace_vs_table_edit_semantics.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/trace_vs_late_spark_and_module_hooks.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/trace_vs_table_edit_semantics.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/68hc11_disassembler_tool_for_vy_v6/binary_table_extractor.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/68hc11_disassembler_tool_for_vy_v6/core/address_conversion.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/68hc11_disassembler_tool_for_vy_v6/disassemble_banked.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/68hc11_disassembler_tool_for_vy_v6/ultimate_binary_analyzer.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/68hc11_disassembler_tool_for_vy_v6/xdf_full_parser.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/hc11cc.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/c_compiler_hc11/hc11kit.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/ghidra_scripts_for_pcm_hacking/ImportPID.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/ghidra_scripts_for_pcm_hacking/ImportXDF.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/label_references/hw_labels_11p.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/label_references/hw_labels_12p.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/label_references/xdf_labels_11p.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/label_references/xdf_labels_12p.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/ExportHC11Assembly.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/ExportHC11Disassembly.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/VY_V6_XDF_Labels_Import.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/extract_xdf_to_csv.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/run_full_pipeline_vy.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/ghidra/run_ghidra_3bank_analysis_vy.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/split_and_disassemble_vy.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/xdf_asm_labeler.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/upstream/vy_assembly_modding/xdf_asm_labeler_v4.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vector_context_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/verify_patch_manifest.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/verify_workspace.ps1",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_cfbc_gap_review.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_cfbc_split_manifest.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_cfbc_split_review.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_function_creation_manifest.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_unowned_island_review.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/vs_vt_vx_addressing.py",
+      "purpose": "offset/CPU bank alias helpers",
+      "interface": "Python helper API",
+      "review_status": "inspected; held; not run; exact-target mapping and strict bounds unqualified",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/xdf_bin_sanity_report.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "tools/xdf_to_labels.py",
+      "purpose": "not inspected",
+      "interface": "not inspected",
+      "review_status": "not reviewed; excluded from public release",
+      "changed": false,
+      "runtime_tested": false,
+      "distributed": false
+    },
+    {
+      "path": "holden_wip/__init__.py",
+      "purpose": "package version",
+      "interface": "__version__",
+      "review_status": "inspected; new; import-tested",
+      "changed": true,
+      "runtime_tested": true,
+      "distributed": true
+    },
+    {
+      "path": "holden_wip/binary_diff.py",
+      "purpose": "bounded generic binary metadata report; no target adapter",
+      "interface": "build_report, changed_ranges, main, installed holden-bin-diff",
+      "review_status": "inspected; changed; synthetic negative/boundary tests",
+      "changed": true,
+      "runtime_tested": true,
+      "distributed": true
+    },
+    {
+      "path": "tests/test_binary_diff.py",
+      "purpose": "synthetic diff/privacy/output safety tests",
+      "interface": "unittest",
+      "review_status": "inspected; new; executed",
+      "changed": true,
+      "runtime_tested": true,
+      "distributed": true
+    }
+  ],
+  "local_original_hashes": "Preserved in local-only evidence; unreviewed original source identities are not redistributed."
+}
