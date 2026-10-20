@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holden-wip-audit"
+version = "0.1.0a1"
+description = "Offline, bounded binary difference metadata for unqualified research"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.scripts]
+holden-bin-diff = "holden_wip.binary_diff:main"
+
+[tool.setuptools]
+packages = ["holden_wip"]

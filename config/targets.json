@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "documentation_only_unqualified_targets",
+  "targets": [
+    {"id": "vs-l36-51-v1.4g", "platform": "VS", "engine": "L36", "calibration": "$51", "revision": "Enhanced v1.4g", "source_size": null, "source_sha256": null},
+    {"id": "vs-l67-51-v1.0d", "platform": "VS", "engine": "L67", "calibration": "$51", "revision": "Enhanced v1.0d", "source_size": null, "source_sha256": null},
+    {"id": "vt-l36-a5g-v1.0i", "platform": "VT", "engine": "L36", "calibration": "$A5G", "revision": "Enhanced v1.0i", "source_size": null, "source_sha256": null},
+    {"id": "vt-l67-a5g-v1.3i", "platform": "VT", "engine": "L67", "calibration": "$A5G", "revision": "Enhanced v1.3i", "source_size": null, "source_sha256": null},
+    {"id": "vx-vy-l36-060a-v1.0a", "platform": "VX/VY", "engine": "L36", "calibration": "$060A", "revision": "Enhanced v1.0a", "xdf_revision": "Antus v2.09b", "source_size": 131072, "source_sha256": "5cb8bd1c61da37a3846b6c28600cdc21db3ceef0c764232d0cd7ec8d6e836abd", "qualification": "public_reference_identity_only"},
+    {"id": "vx-vy-l67-07-v2.6i", "platform": "VX/VY", "engine": "L67", "calibration": "$07", "revision": "Enhanced v2.6i", "source_size": null, "source_sha256": null}
+  ]
+}

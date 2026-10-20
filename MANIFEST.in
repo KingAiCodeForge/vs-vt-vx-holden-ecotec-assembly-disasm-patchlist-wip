@@ -1,0 +1,6 @@
+include README.md CHANGELOG.md LICENSE
+include config/targets.json
+include tools/bin_diff_report.py
+recursive-include docs *.md
+include docs/script-review-ledger.json
+recursive-include tests *.py
