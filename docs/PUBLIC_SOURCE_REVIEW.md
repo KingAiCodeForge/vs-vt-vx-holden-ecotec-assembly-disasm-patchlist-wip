@@ -77,6 +77,12 @@ An independent enumeration checked 961 short binary pairs against exact changed
 positions. Other platforms/runtimes remain pending CI evidence; see the release
 receipt for exact commands, source/artifact hashes and any later results.
 
+PR #1's GitHub Actions jobs did not start: the account is locked by a billing
+issue. These are infrastructure failures, not passing or failing software tests.
+No billing setting was changed and no paid service was enabled. This alpha's
+measured platform qualification is Windows/Python 3.13; Linux and the other
+declared syntax-compatible Python versions remain unverified.
+
 Cleanup deliberately preserves a path when the filesystem cannot establish
 file identity; the error identifies that leftover for inspection. A process or
 power failure can also leave a partial report. No filesystem transaction is

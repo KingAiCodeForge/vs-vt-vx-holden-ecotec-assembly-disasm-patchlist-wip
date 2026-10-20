@@ -113,8 +113,11 @@ bounded inputs; omitted ranges are explicitly marked as truncated.
 review reports before sharing. CRC32 is file metadata, not a PCM checksum.
 
 Run synthetic tests with `python -m unittest discover -s tests -v`. Local
-verification uses Windows and Python 3.13; other Python versions and Linux are
-CI targets until their exact-source checks pass. No factory image is needed.
+verification uses Windows and Python 3.13. GitHub Actions jobs could not start
+because the account is locked by a billing issue; no CI test result is claimed.
+Other Python versions and Linux remain unverified CI targets. The Python 3.10
+minimum describes the syntax floor, not a measured platform pass. No factory
+image is needed.
 
 ## License
 
