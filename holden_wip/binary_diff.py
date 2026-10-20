@@ -12,6 +12,7 @@ import json
 import os
 from pathlib import Path
 import re
+import stat
 import sys
 from typing import Iterable
 import zlib
@@ -175,8 +176,9 @@ def _write_reports(outputs: list[tuple[Path, str]], inputs: Iterable[Path]) -> N
     try:
         for path, content in outputs:
             stream = path.open("x", encoding="utf-8", newline="\n")
+            created.append((path, stream, None))
             identity = os.fstat(stream.fileno())
-            created.append((path, stream, (identity.st_dev, identity.st_ino)))
+            created[-1] = (path, stream, (identity.st_dev, identity.st_ino))
         for (_, content), (_, stream, _) in zip(outputs, created):
             stream.write(content)
             stream.flush()
@@ -197,7 +199,9 @@ def _write_reports(outputs: list[tuple[Path, str]], inputs: Iterable[Path]) -> N
                 try:
                     current = path.lstat()
                     # Never delete a user file/symlink that replaced our reservation.
-                    if (current.st_dev, current.st_ino) == identity:
+                    if identity is None or not identity[1] or not current.st_ino:
+                        cleanup_failed.append(f"{path} (identity unavailable)")
+                    elif stat.S_ISREG(current.st_mode) and (current.st_dev, current.st_ino) == identity:
                         path.unlink()
                 except FileNotFoundError:
                     pass

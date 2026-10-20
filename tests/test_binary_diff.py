@@ -223,6 +223,29 @@ class BinaryDiffTests(unittest.TestCase):
         self.assertNotIn("<unsafe>", markdown)
         self.assertIn("&lt;unsafe&gt;", markdown)
 
+    def test_cleanup_preserves_file_when_identity_is_unavailable(self):
+        from types import SimpleNamespace
+        output = self.root / "uncertain.json"
+        actual_open = Path.open
+
+        class FailingStream:
+            def __init__(self, inner):
+                self.inner = inner
+
+            def __getattr__(self, name):
+                return getattr(self.inner, name)
+
+            def flush(self):
+                raise OSError("injected publication failure")
+
+        def opening(path, *args, **kwargs):
+            return FailingStream(actual_open(path, *args, **kwargs))
+
+        with patch.object(Path, "open", opening), patch("os.fstat", return_value=SimpleNamespace(st_dev=0, st_ino=0)):
+            with self.assertRaisesRegex(OSError, "identity unavailable"):
+                _write_reports([(output, "partial report")], ())
+        self.assertTrue(output.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

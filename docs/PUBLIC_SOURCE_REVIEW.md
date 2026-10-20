@@ -69,13 +69,18 @@ baseline files, and exercise Git ignore decisions for each admitted file and
 representative protected files. Synthetic tests exercise hash/size rejection,
 range and input bounds, API types, private detail defaults, missing inputs,
 overwrite/alias protection, failed-output cleanup and import behavior.
-The installed wheel passed **16 synthetic tests**, including a Windows
+The installed wheel passed **17 synthetic tests**, including a Windows
 hard-link alias check, in a clean Windows Python 3.13 environment and a working
 directory with spaces. The installed console command and compatibility adapter
 also passed help and synthetic input/output smoke checks outside the checkout.
 An independent enumeration checked 961 short binary pairs against exact changed
 positions. Other platforms/runtimes remain pending CI evidence; see the release
 receipt for exact commands, source/artifact hashes and any later results.
+
+Cleanup deliberately preserves a path when the filesystem cannot establish
+file identity; the error identifies that leftover for inspection. A process or
+power failure can also leave a partial report. No filesystem transaction is
+claimed.
 
 Future source promotion follows [SOURCE_INTAKE.md](SOURCE_INTAKE.md). Each tool
 needs an individual source/rights record, portable API/CLI, meaningful synthetic
